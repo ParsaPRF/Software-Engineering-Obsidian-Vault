@@ -114,7 +114,7 @@ Then: a key-definition callout (`> [!info]`) → detailed explanation → relati
 
 The original notes, structure, configuration and templates in this repository are released under the [MIT License](LICENSE).
 
-The license does **not** cover the Pressman figure images under `98_Assets/` (copyright of the publisher, included for personal study with citation) or the third-party plugin bundles under `.obsidian/plugins/`. See the *Scope of this license* section in [LICENSE](LICENSE) for details.
+The license does **not** cover the Pressman figure images under `98_Assets/` (copyright of the publisher, included for personal study with citation) or the third-party plugin bundles under `.obsidian/plugins/`. See [NOTICE.md](NOTICE.md) for full attribution and scope.
 
 ---
 
@@ -185,6 +185,6 @@ The license does **not** cover the Pressman figure images under `98_Assets/` (co
 
 ### 📄 مجوز
 
-یادداشتها، ساختار و تنظیمات این مخزن تحت [مجوز MIT](LICENSE) منتشر شدهاند. تصاویر نمودارهای پرسمن در `98_Assets/` و باندل پلاگینهای شخص ثالث **تحت این مجوز نیستند** (جزئیات در بخش *Scope of this license* در فایل [LICENSE](LICENSE)).
+یادداشتها، ساختار و تنظیمات این مخزن تحت [مجوز MIT](LICENSE) منتشر شدهاند. تصاویر نمودارهای پرسمن در `98_Assets/` و باندل پلاگینهای شخص ثالث **تحت این مجوز نیستند** — جزئیات و فهرست منابع در فایل [NOTICE.md](NOTICE.md) آمده است.
 
 </div>

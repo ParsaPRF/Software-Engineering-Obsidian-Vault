@@ -19,24 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-## Scope of this license
-
-This license covers the **original study notes, summaries, structure,
-configuration and templates** in this repository, authored by Amir Parsa
-Fatholahi.
-
-It does **not** cover, and grants no rights over, the following third-party
-material included here for academic study and attribution:
-
-1. **Figure images in `Software-Engineering-Vault/98_Assets/`** — these are
-   reproductions of figures from Roger S. Pressman & Bruce R. Maxim,
-   *Software Engineering: A Practitioner's Approach*, 9th Edition. Copyright
-   belongs to McGraw-Hill / the publisher and the original authors. They are
-   included solely for personal, non-commercial study, with the source figure
-   cited in each corresponding note. Remove them if you redistribute this vault
-   commercially.
-2. **Community plugin bundles under `.obsidian/plugins/`** — each plugin remains
-   under its own license, held by its respective authors.
