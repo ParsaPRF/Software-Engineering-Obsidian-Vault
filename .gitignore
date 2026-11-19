@@ -6,6 +6,8 @@
 # Obsidian cache / leftovers
 .obsidian/cache
 .obsidian/plugins/*/cache
+# Per-machine plugin UI state (outline expansion, scroll offsets, cursors)
+.obsidian/plugins/obsidian-quiet-outline/markdown-states.json
 .trash/
 .DS_Store
 Thumbs.db
