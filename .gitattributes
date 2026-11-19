@@ -1,0 +1,23 @@
+# Normalize line endings to LF everywhere, in the repository and in the
+# working tree. Without this, Git for Windows (core.autocrlf=true) rewrites
+# the Persian markdown notes to CRLF on checkout and then reports phantom
+# modifications after every Obsidian save, even when content is unchanged.
+
+* text=auto eol=lf
+
+*.md            text eol=lf
+*.json          text eol=lf
+*.css           text eol=lf
+*.sh            text eol=lf
+*.excalidraw.md text eol=lf
+
+# Binary assets must never be normalized.
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.webp binary
+*.pdf  binary
+*.mp3  binary
+*.woff binary
+*.woff2 binary

@@ -37,3 +37,7 @@ desktop.ini
 # Excalidraw auto-names new untitled canvases 'Drawing <timestamp>'; those are
 # scratch files. Rename a drawing you want to keep versioned.
 Excalidraw/Drawing *.excalidraw.md
+
+# A second, default Obsidian config is created here if you open the inner
+# notes folder as its own vault. Open the repository ROOT as the vault.
+Software-Engineering-Vault/.obsidian/
