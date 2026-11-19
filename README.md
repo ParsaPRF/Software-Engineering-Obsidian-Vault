@@ -1,5 +1,7 @@
 # Software Engineering Principles & Design — Obsidian Vault
 
+**English** · [فارسی ↓](#-نسخه-فارسی)
+
 A complete, exam-ready **Obsidian knowledge base** for a *Software Engineering Principles & Design* course, built from handwritten class notes and aligned chapter-by-chapter with **Roger S. Pressman, _Software Engineering: A Practitioner's Approach_ (9th Edition)**.
 
 The notes are written in **Persian (فارسی)** and use a clean folder-based structure, a Map of Content (MOC) hub, an exam-prep section, a bilingual glossary, and a reusable note template. All diagrams are bundled locally as PNG assets, so the vault renders offline with no external dependencies.
@@ -110,4 +112,79 @@ Then: a key-definition callout (`> [!info]`) → detailed explanation → relati
 
 ## 📄 License
 
-Notes, summaries and the vault structure are shared for study purposes. Pressman figure references are cited for academic attribution; plugin code belongs to its respective authors.
+The original notes, structure, configuration and templates in this repository are released under the [MIT License](LICENSE).
+
+The license does **not** cover the Pressman figure images under `98_Assets/` (copyright of the publisher, included for personal study with citation) or the third-party plugin bundles under `.obsidian/plugins/`. See the *Scope of this license* section in [LICENSE](LICENSE) for details.
+
+---
+
+<div dir="rtl">
+
+## 🇮🇷 نسخه فارسی
+
+یک **مخزن دانش (Vault) آمادهٔ آمستر برای Obsidian**، مربوط به درس **اصول طراحی و مهندسی نرمافزار**. این والت بر پایهٔ **جزوهٔ دستنویس کلاسی** و نمودارهای کتاب مرجع **مهندسی نرمافزار راجر پرسمن (ویرایش نهم)** ساخته و تکمیل شده است.
+
+همهٔ یادداشتها **فارسی** هستند، ۳۷ تصویر نمودار بهصورت لوکال در پوشهٔ `98_Assets` ذخیره شدهاند (بنابراین والت کاملاً آفلاین کار میکند) و کل محتوا از طریق یک **نقشهٔ راه (MOC)** فصلفصل به هم لینک شده است.
+
+### ✨ ویژگیها
+
+- **ناوبری بر پایهٔ MOC** — یک یادداشت نقشهٔ راه که همهٔ مباحث را فصلبهفصل به هم وصل میکند.
+- **انطباق فصلفصل با پرسمن** — در هر یادداشت، دقیقاً شمارهٔ شکل پرسمنِ استفادهشده ذکر شده است (مثلاً *شکل ۲-۳ آبشاری*، *شکل ۲-۵ مارپیچی*، *شکل ۱-۱ لایههای مهندسی نرمافزار*).
+- **۳۷ نمودار** بهصورت لوکال در `98_Assets/` — رندر کامل بدون اینترنت.
+- **جعبهابزار شب امتحان** — چکلیست نکات طلایی، جدول مقایسهٔ جامع مدلهای فرآیند و واژهنامهٔ تخصصی.
+- **قالب یادداشت آماده** با YAML frontmatter (`course`، `chapter`، `status`، `tags`، `aliases`) و بلوکهای callout برای تعریف کلیدی و نکات امتحانی.
+- **تنظیمات از پیش آمادهٔ Obsidian** — پشتیبانی راستبهچپ (RTL)، Dataview، Excalidraw، Spaced Repetition، Omnisearch و Style Settings.
+
+### 📂 ساختار پوشهها
+
+| پوشه | محتوا |
+|---|---|
+| `00_MOC` | 🗺️ نقشهٔ راه — از اینجا شروع کن |
+| `01_SDLC` | چرخهٔ تولید نرمافزار، فعالیتهای چارچوبی، جریانهای فرآیندی و مدلهای فرآیند (آبشاری، افزایشی، نمونهسازی، مارپیچی) |
+| `02_Agile` | فرآیند چابک، مانیفست، اسکرام، XP و مدلسازی چابک |
+| `03_RUP` | فرآیند یکپارچهٔ منطقی، فازها و تکرارها |
+| `04_Requirements` | مهندسی نیازمندیها، عملیاتی/غیرعملیاتی و مدیریت نیازمندی |
+| `05_User-Stories` | داستان کاربر، 3Cs، معیارهای پذیرش و مقایسه با Use Case |
+| `06_MVP` | حداقل محصول پذیرفتنی و چرخهٔ ساخت-اندازهگیری-یادگیری |
+| `07_Exam-Prep` | 📊 جدول مقایسهٔ مدلها و ⚡ چکلیست نکات طلایی |
+| `08_Glossary` | 📖 واژهنامهٔ تخصصی مهندسی نرمافزار |
+| `09_Software-Design` | فرایند طراحی، مفاهیم و اصول، معماری و UML، طراحی مبتنی بر الگو |
+| `10_Quality-and-Testing` | تضمین کیفیت، بررسی فنی، اصول آزمون، نگهداری و مهندسی مجدد |
+| `98_Assets` | تصاویر نمودارها (PNG) |
+| `99_Templates` | قالب یادداشت مفهومی |
+
+### 🚀 شروع سریع
+
+1. [Obsidian](https://obsidian.md) را نصب کن.
+2. مخزن را clone کن:
+   ```bash
+   git clone https://github.com/ParsaPRF/Software-Engineering-Obsidian-Vault.git
+   ```
+3. در Obsidian گزینهٔ **Open folder as vault** را بزن و پوشهای را انتخاب کن که داخلش `.obsidian` قرار دارد.
+4. فایل **`00_MOC/🗺️ نقشه راه اصول طراحی و مهندسی نرمافزار.md`** را باز کن و از نقشهٔ راه شروع کن.
+
+> **نکتهٔ راستبهچپ:** چون یادداشتها فارسیاند، والت با پلاگین *Obsidian RTL* تنظیم شده است. اگر جهت متن درست نبود، از **Settings → Community plugins → RTL** جهت را روی *RTL* بگذار.
+
+### 🧩 پلاگینها
+
+باندل پلاگینها داخل `.obsidian/plugins` قرار دارد تا والت بلافاصله بعد از clone کار کند:
+`dataview` · `obsidian-excalidraw-plugin` · `obsidian-spaced-repetition` · `omnisearch` · `obsidian-style-settings` · `obsidian-rtl` · `obsidian-hover-editor` · `obsidian-image-toolkit` · `obsidian-quiet-outline` · `obsidian-git` · `better-export-pdf`
+
+> پلاگین **`remotely-save`** در مخزن قرار ندارد، چون باندل منتشرشدهٔ آن اعتبارنامههای OAuth گوگل نویسندهٔ اصلی را هاردکد دارد و GitHub Push Protection آن را رد میکند. اگر به همگامسازی ابری نیاز داری، از داخل خود Obsidian نصبش کن.
+
+### 📝 قالب یادداشت
+
+هر یادداشت با YAML frontmatter شروع میشود و این ساختار را دنبال میکند:
+تعریف کلیدی (`> [!info]`) ← تشریح و جزئیات ← ارتباط با سایر مفاهیم با `[[wikilinks]]` ← نکات امتحانی (`> [!warning]`).
+برای یادداشت جدید از `99_Templates/قالب یادداشت مفهومی درس.md` استفاده کن.
+
+### 📚 منبع
+
+- Roger S. Pressman, Bruce R. Maxim — *Software Engineering: A Practitioner's Approach*, 9th Edition
+- جزوه و نمودارهای کلاسی
+
+### 📄 مجوز
+
+یادداشتها، ساختار و تنظیمات این مخزن تحت [مجوز MIT](LICENSE) منتشر شدهاند. تصاویر نمودارهای پرسمن در `98_Assets/` و باندل پلاگینهای شخص ثالث **تحت این مجوز نیستند** (جزئیات در بخش *Scope of this license* در فایل [LICENSE](LICENSE)).
+
+</div>
