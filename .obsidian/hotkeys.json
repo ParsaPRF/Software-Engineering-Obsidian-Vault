@@ -1,0 +1,20 @@
+{
+  "obsidian-dictionary-plugin:dictionary-open-view": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "D"
+    }
+  ],
+  "obsidian-dictionary-plugin:dictionary-open-language-switcher": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "L"
+    }
+  ]
+}
