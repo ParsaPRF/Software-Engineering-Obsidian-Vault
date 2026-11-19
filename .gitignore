@@ -1,0 +1,24 @@
+# Obsidian per-machine workspace state (changes on every open; not portable)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/workspace
+
+# Obsidian cache / leftovers
+.obsidian/cache
+.obsidian/plugins/*/cache
+.trash/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# The remotely-save plugin bundle ships with hardcoded upstream Google OAuth
+# credentials, which GitHub push protection rejects. Install it from Obsidian's
+# community plugin browser instead:
+# https://github.com/remotely-save/remotely-save
+.obsidian/plugins/remotely-save/
+
+# OS / editor noise
+*.swp
+*~
+.idea/
+.vscode/
