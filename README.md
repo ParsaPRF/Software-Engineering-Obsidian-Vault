@@ -12,8 +12,8 @@ The notes are written in **Persian (فارسی)** and use a clean folder-based s
 
 - **MOC-driven navigation** — a single roadmap note links to every topic, chapter by chapter.
 - **Chapter-by-chapter Pressman alignment** — each note cites the exact Pressman figure it embeds (e.g. *Fig. 2-3 Waterfall*, *Fig. 2-5 Spiral*, *Fig. 1-1 SE Layers*).
-- **37 hand-picked figures** embedded locally under `98_Assets/` — everything renders offline.
-- **Exam-prep toolkit** — a golden-rules checklist, a comprehensive process-model comparison table, and a technical glossary.
+- **37 topic notes and 36 hand-picked figures**, with every diagram embedded locally under `98_Assets/` — everything renders offline.
+- **Exam-prep toolkit** — an integrated summary that clears up common misconceptions, a golden-rules checklist, a comprehensive process-model comparison table, and a technical glossary.
 - **Reusable template** with YAML frontmatter (`course`, `chapter`, `status`, `tags`, `aliases`) and callout blocks for definitions and exam tips.
 - **Pre-configured Obsidian setup** — RTL support, Dataview, Excalidraw, Spaced Repetition, Omnisearch, Style Settings, and more (see `.obsidian/`).
 
@@ -28,12 +28,12 @@ The notes are written in **Persian (فارسی)** and use a clean folder-based s
     ├── 00_MOC/                       # 🗺️ Map of Content — start here
     ├── 01_SDLC/                      # Software life cycle, framework activities, process flows, process models
     │   └── مدل‌های فرآیند/            # Waterfall · Incremental · Prototyping · Spiral
-    ├── 02_Agile/                     # Agile process, manifesto, Scrum, XP, Agile Modeling
+    ├── 02_Agile/                     # Agile process, manifesto, Scrum, XP, Kanban, Agile Modeling
     ├── 03_RUP/                       # Rational Unified Process, phases and iterations
     ├── 04_Requirements/              # Requirements engineering, functional/non-functional, management
     ├── 05_User-Stories/              # User stories, 3Cs, acceptance criteria, Story vs. Use Case
     ├── 06_MVP/                       # MVP and Build-Measure-Learn / Go-No-Go
-    ├── 07_Exam-Prep/                 # 📊 Comparison table, ⚡ golden-rules checklist
+    ├── 07_Exam-Prep/                 # 📊 Comparison table, ⚡ golden-rules checklist, 🧭 integrated summary
     ├── 08_Glossary/                  # 📖 Technical glossary
     ├── 09_Software-Design/           # Design process, concepts & principles, architecture/UML, patterns
     ├── 10_Quality-and-Testing/       # QA, technical review, testing principles, maintenance, reengineering
@@ -48,14 +48,14 @@ The notes are written in **Persian (فارسی)** and use a clean folder-based s
 | # | Topic | Highlights |
 |---|-------|------------|
 | 1 | **SDLC & Process Models** | SE layers, five framework activities, four process flows, umbrella activities, Polya's 4 steps, Hooker's principles, Waterfall / Incremental / Prototyping / Spiral |
-| 2 | **Agile** | Cost of change, Agile Manifesto (4 values, 5 principles, 12 declarations), Scrum events & roles, XP framework activities, CRC cards, spikes, Agile Modeling |
+| 2 | **Agile** | Cost of change, Agile Manifesto (4 values, 5 principles, 12 declarations), Scrum events & roles, XP framework activities, CRC cards, spikes, Agile Modeling, Kanban compared with Scrum and XP |
 | 3 | **RUP** | Two-dimensional process view, four phases and iterations, discipline workflows |
 | 4 | **Requirements** | Seven requirements engineering tasks, functional vs. non-functional requirements, impact analysis, traceability matrix |
-| 5 | **User Stories** | Story template, 3Cs (Card / Conversation / Confirmation), acceptance criteria, Story vs. Use Case |
+| 5 | **User Stories** | Story template, 3Cs (Card / Conversation / Confirmation), acceptance criteria, INVEST, Story vs. Use Case |
 | 6 | **MVP** | Minimum Viable Product, prototype stabilization, BML loop, Go/No-Go gate |
 | 7 | **Software Design** | Design process and information flow, nine core design concepts, cohesion & coupling, architectural design, UML deployment diagrams, Buschmann & Henney principles, pattern-based design |
 | 8 | **Quality & Testing** | SQA, technical reviews, testing principles, testing steps, maintenance types, ripple effect, reverse engineering, reengineering |
-| 9 | **Exam Prep** | Comparison matrix of all process models, golden-rule checklist, technical glossary |
+| 9 | **Exam Prep** | Integrated summary clearing common misconceptions, comparison matrix of all process models, golden-rule checklist, technical glossary |
 
 ---
 
@@ -122,32 +122,32 @@ The license does **not** cover the Pressman figure images under `98_Assets/` (co
 
 ## 🇮🇷 نسخه فارسی
 
-یک **مخزن دانش (Vault) آمادهٔ آمستر برای Obsidian**، مربوط به درس **اصول طراحی و مهندسی نرمافزار**. این والت بر پایهٔ **جزوهٔ دستنویس کلاسی** و نمودارهای کتاب مرجع **مهندسی نرمافزار راجر پرسمن (ویرایش نهم)** ساخته و تکمیل شده است.
+یک **مخزن دانش (Vault) آمادهٔ آمستر برای Obsidian**، مربوط به درس **اصول طراحی و مهندسی نرم‌افزار**. این والت بر پایهٔ **جزوهٔ دست‌نویس کلاسی** و نمودارهای کتاب مرجع **مهندسی نرم‌افزار راجر پرسمن (ویرایش نهم)** ساخته و تکمیل شده است.
 
-همهٔ یادداشتها **فارسی** هستند، ۳۷ تصویر نمودار بهصورت لوکال در پوشهٔ `98_Assets` ذخیره شدهاند (بنابراین والت کاملاً آفلاین کار میکند) و کل محتوا از طریق یک **نقشهٔ راه (MOC)** فصلفصل به هم لینک شده است.
+همهٔ یادداشت‌ها **فارسی** هستند، ۳۶ تصویر نمودار به‌صورت لوکال در پوشهٔ `98_Assets` ذخیره شده‌اند (بنابراین والت کاملاً آفلاین کار می‌کند) و کل محتوا از طریق یک **نقشهٔ راه (MOC)** فصل‌فصل به هم لینک شده است.
 
-### ✨ ویژگیها
+### ✨ ویژگی‌ها
 
-- **ناوبری بر پایهٔ MOC** — یک یادداشت نقشهٔ راه که همهٔ مباحث را فصلبهفصل به هم وصل میکند.
-- **انطباق فصلفصل با پرسمن** — در هر یادداشت، دقیقاً شمارهٔ شکل پرسمنِ استفادهشده ذکر شده است (مثلاً *شکل ۲-۳ آبشاری*، *شکل ۲-۵ مارپیچی*، *شکل ۱-۱ لایههای مهندسی نرمافزار*).
-- **۳۷ نمودار** بهصورت لوکال در `98_Assets/` — رندر کامل بدون اینترنت.
-- **جعبهابزار شب امتحان** — چکلیست نکات طلایی، جدول مقایسهٔ جامع مدلهای فرآیند و واژهنامهٔ تخصصی.
-- **قالب یادداشت آماده** با YAML frontmatter (`course`، `chapter`، `status`، `tags`، `aliases`) و بلوکهای callout برای تعریف کلیدی و نکات امتحانی.
-- **تنظیمات از پیش آمادهٔ Obsidian** — پشتیبانی راستبهچپ (RTL)، Dataview، Excalidraw، Spaced Repetition، Omnisearch و Style Settings.
+- **ناوبری بر پایهٔ MOC** — یک یادداشت نقشهٔ راه که همهٔ مباحث را فصل‌به‌فصل به هم وصل می‌کند.
+- **انطباق فصل‌فصل با پرسمن** — در هر یادداشت، دقیقاً شمارهٔ شکل پرسمنِ استفاده‌شده ذکر شده است (مثلاً *شکل ۲-۳ آبشاری*، *شکل ۲-۵ مارپیچی*، *شکل ۱-۱ لایه‌های مهندسی نرم‌افزار*).
+- **۳۷ یادداشت موضوعی و ۳۶ نمودار** به‌صورت لوکال در `98_Assets/` — رندر کامل بدون اینترنت.
+- **جعبه‌ابزار شب امتحان** — جمع‌بندی یکپارچه و رفع سوءبرداشت‌های رایج، چک‌لیست نکات طلایی، جدول مقایسهٔ جامع مدل‌های فرآیند و واژه‌نامهٔ تخصصی.
+- **قالب یادداشت آماده** با YAML frontmatter (`course`، `chapter`، `status`، `tags`، `aliases`) و بلوک‌های callout برای تعریف کلیدی و نکات امتحانی.
+- **تنظیمات از پیش آمادهٔ Obsidian** — پشتیبانی راست‌به‌چپ (RTL)، Dataview، Excalidraw، Spaced Repetition، Omnisearch و Style Settings.
 
-### 📂 ساختار پوشهها
+### 📂 ساختار پوشه‌ها
 
 | پوشه | محتوا |
 |---|---|
 | `00_MOC` | 🗺️ نقشهٔ راه — از اینجا شروع کن |
-| `01_SDLC` | چرخهٔ تولید نرمافزار، فعالیتهای چارچوبی، جریانهای فرآیندی و مدلهای فرآیند (آبشاری، افزایشی، نمونهسازی، مارپیچی) |
-| `02_Agile` | فرآیند چابک، مانیفست، اسکرام، XP و مدلسازی چابک |
+| `01_SDLC` | چرخهٔ تولید نرم‌افزار، فعالیت‌های چارچوبی، جریان‌های فرآیندی و مدل‌های فرآیند (آبشاری، افزایشی، نمونه‌سازی، مارپیچی) |
+| `02_Agile` | فرآیند چابک، مانیفست، اسکرام، XP، کانبان و مدل‌سازی چابک |
 | `03_RUP` | فرآیند یکپارچهٔ منطقی، فازها و تکرارها |
-| `04_Requirements` | مهندسی نیازمندیها، عملیاتی/غیرعملیاتی و مدیریت نیازمندی |
-| `05_User-Stories` | داستان کاربر، 3Cs، معیارهای پذیرش و مقایسه با Use Case |
-| `06_MVP` | حداقل محصول پذیرفتنی و چرخهٔ ساخت-اندازهگیری-یادگیری |
-| `07_Exam-Prep` | 📊 جدول مقایسهٔ مدلها و ⚡ چکلیست نکات طلایی |
-| `08_Glossary` | 📖 واژهنامهٔ تخصصی مهندسی نرمافزار |
+| `04_Requirements` | مهندسی نیازمندی‌ها، عملیاتی/غیرعملیاتی و مدیریت نیازمندی |
+| `05_User-Stories` | داستان کاربر، 3Cs، معیارهای پذیرش، INVEST و مقایسه با Use Case |
+| `06_MVP` | حداقل محصول پذیرفتنی و چرخهٔ ساخت-اندازه‌گیری-یادگیری |
+| `07_Exam-Prep` | 🧭 جمع‌بندی یکپارچه، 📊 جدول مقایسهٔ مدل‌ها و ⚡ چک‌لیست نکات طلایی |
+| `08_Glossary` | 📖 واژه‌نامهٔ تخصصی مهندسی نرم‌افزار |
 | `09_Software-Design` | فرایند طراحی، مفاهیم و اصول، معماری و UML، طراحی مبتنی بر الگو |
 | `10_Quality-and-Testing` | تضمین کیفیت، بررسی فنی، اصول آزمون، نگهداری و مهندسی مجدد |
 | `98_Assets` | تصاویر نمودارها (PNG) |
@@ -160,21 +160,21 @@ The license does **not** cover the Pressman figure images under `98_Assets/` (co
    ```bash
    git clone https://github.com/ParsaPRF/Software-Engineering-Obsidian-Vault.git
    ```
-3. در Obsidian گزینهٔ **Open folder as vault** را بزن و پوشهای را انتخاب کن که داخلش `.obsidian` قرار دارد.
-4. فایل **`00_MOC/🗺️ نقشه راه اصول طراحی و مهندسی نرمافزار.md`** را باز کن و از نقشهٔ راه شروع کن.
+3. در Obsidian گزینهٔ **Open folder as vault** را بزن و پوشه‌ای را انتخاب کن که داخلش `.obsidian` قرار دارد.
+4. فایل **`00_MOC/🗺️ نقشه راه اصول طراحی و مهندسی نرم‌افزار.md`** را باز کن و از نقشهٔ راه شروع کن.
 
-> **نکتهٔ راستبهچپ:** چون یادداشتها فارسیاند، والت با پلاگین *Obsidian RTL* تنظیم شده است. اگر جهت متن درست نبود، از **Settings → Community plugins → RTL** جهت را روی *RTL* بگذار.
+> **نکتهٔ راست‌به‌چپ:** چون یادداشت‌ها فارسی‌اند، والت با پلاگین *Obsidian RTL* تنظیم شده است. اگر جهت متن درست نبود، از **Settings → Community plugins → RTL** جهت را روی *RTL* بگذار.
 
-### 🧩 پلاگینها
+### 🧩 پلاگین‌ها
 
-باندل پلاگینها داخل `.obsidian/plugins` قرار دارد تا والت بلافاصله بعد از clone کار کند:
+باندل پلاگین‌ها داخل `.obsidian/plugins` قرار دارد تا والت بلافاصله بعد از clone کار کند:
 `dataview` · `obsidian-excalidraw-plugin` · `obsidian-spaced-repetition` · `omnisearch` · `obsidian-style-settings` · `obsidian-rtl` · `obsidian-hover-editor` · `obsidian-image-toolkit` · `obsidian-quiet-outline` · `obsidian-git` · `better-export-pdf`
 
-> پلاگین **`remotely-save`** در مخزن قرار ندارد، چون باندل منتشرشدهٔ آن اعتبارنامههای OAuth گوگل نویسندهٔ اصلی را هاردکد دارد و GitHub Push Protection آن را رد میکند. اگر به همگامسازی ابری نیاز داری، از داخل خود Obsidian نصبش کن.
+> پلاگین **`remotely-save`** در مخزن قرار ندارد، چون باندل منتشرشدهٔ آن اعتبارنامه‌های OAuth گوگل نویسندهٔ اصلی را هاردکد دارد و GitHub Push Protection آن را رد می‌کند. اگر به همگام‌سازی ابری نیاز داری، از داخل خود Obsidian نصبش کن.
 
 ### 📝 قالب یادداشت
 
-هر یادداشت با YAML frontmatter شروع میشود و این ساختار را دنبال میکند:
+هر یادداشت با YAML frontmatter شروع می‌شود و این ساختار را دنبال می‌کند:
 تعریف کلیدی (`> [!info]`) ← تشریح و جزئیات ← ارتباط با سایر مفاهیم با `[[wikilinks]]` ← نکات امتحانی (`> [!warning]`).
 برای یادداشت جدید از `99_Templates/قالب یادداشت مفهومی درس.md` استفاده کن.
 
@@ -185,6 +185,6 @@ The license does **not** cover the Pressman figure images under `98_Assets/` (co
 
 ### 📄 مجوز
 
-یادداشتها، ساختار و تنظیمات این مخزن تحت [مجوز MIT](LICENSE) منتشر شدهاند. تصاویر نمودارهای پرسمن در `98_Assets/` و باندل پلاگینهای شخص ثالث **تحت این مجوز نیستند** — جزئیات و فهرست منابع در فایل [NOTICE.md](NOTICE.md) آمده است.
+یادداشت‌ها، ساختار و تنظیمات این مخزن تحت [مجوز MIT](LICENSE) منتشر شده‌اند. تصاویر نمودارهای پرسمن در `98_Assets/` و باندل پلاگین‌های شخص ثالث **تحت این مجوز نیستند** — جزئیات و فهرست منابع در فایل [NOTICE.md](NOTICE.md) آمده است.
 
 </div>

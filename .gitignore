@@ -41,3 +41,8 @@ Excalidraw/Drawing *.excalidraw.md
 # A second, default Obsidian config is created here if you open the inner
 # notes folder as its own vault. Open the repository ROOT as the vault.
 Software-Engineering-Vault/.obsidian/
+
+# Local backup archives kept in the working copy (not repository content).
+/*.rar
+/*.zip
+/*.7z
